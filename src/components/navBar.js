@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react';
+import logo from '../images/logo.png';
 import Button from './button';
 
 export default function NavBar() {
-    const [modalShow, setModalShow] = useState(false);
 
     const openNav = () => {
         var navCollapse = document.querySelector("#navbarToggler");
@@ -19,9 +19,9 @@ export default function NavBar() {
         <>
             {/* start nav */}
             <nav className="navbar navbar-expand-lg navbar-light">
-                <div className="container d-flex justify-content-between align-items-between pt-3">
+                <div className="container d-flex justify-content-between align-items-between pt-4">
                     {/* <a className="" href="#">Navbar</a> */}
-                    <img src="" className="navbar-brand image-fluid me-3 navbar-brand" width="100px" alt='logo' />
+                    <img src={logo} className="navbar-brand image-fluid me-3 navbar-brand" width="170px" alt='logo' />
                     <button className="navbar-toggler" type="button" onClick={() => openNav()}>
                         <span className="navbar-toggler-icon" />
                     </button>

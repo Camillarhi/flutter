@@ -1,20 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 import Button from './button';
 
-const BannerText = styled.h1`
-font-size:100px;
+const PaymentText = styled.h1`
+font-size:80px;
 `;
 export default function Payments() {
     return (
         <div className='container my-5 py-5'>
             <div className='py-5 my-5'>
-                <BannerText className='fw-bolder'>A fully unified <br />
+                <PaymentText className='fw-bolder'>A fully unified <br />
                     set of<span className='text-warning'> payments</span>
-                </BannerText>
-                <BannerText className='fw-bolder text-warning'>tools</BannerText>
+                </PaymentText>
+                <PaymentText className='fw-bolder text-warning'>tools</PaymentText>
             </div>
-            <div className="row">
+            <div className="row mb-5">
                 <div className="col-lg-4 col-md-12 mb-4 mb-lg-0 d-flex align-items-center">
                     <div>
                         <h3 className='fw-bolder'>Checkout</h3>
@@ -40,10 +41,10 @@ export default function Payments() {
                         <p className='fs-5'>Easily receive money from anyone, <br />
                             anywhere in the world.
                         </p>
-                        <a>
+                        <Link>
                             <span className='text-warning'>Learn more</span>
                             <span>icon</span>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className='ms-4'>
@@ -52,10 +53,10 @@ export default function Payments() {
                             bank accounts from your <br />
                             Flutterwave dashboard.
                         </p>
-                        <a>
+                        <Link>
                             <span className='text-warning'>Learn more</span>
                             <span>icon</span>
-                        </a>
+                        </Link>
                     </div>
 
                 </div>
