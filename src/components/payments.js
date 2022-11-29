@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 import Button from './button';
 
@@ -41,10 +40,10 @@ export default function Payments() {
                         <p className='fs-5'>Easily receive money from anyone, <br />
                             anywhere in the world.
                         </p>
-                        <Link>
+                        <a>
                             <span className='text-warning'>Learn more</span>
                             <span>icon</span>
-                        </Link>
+                        </a>
                     </div>
 
                     <div className='ms-4'>
@@ -53,10 +52,10 @@ export default function Payments() {
                             bank accounts from your <br />
                             Flutterwave dashboard.
                         </p>
-                        <Link>
+                        <a>
                             <span className='text-warning'>Learn more</span>
                             <span>icon</span>
-                        </Link>
+                        </a>
                     </div>
 
                 </div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 import Button from './button';
 
@@ -45,10 +44,10 @@ export default function Commerce() {
                                     your customers and get paid from <br />
                                     anywhere.
                                 </p>
-                                <Link>
+                                <a>
                                     <span className='text-warning'>Get started</span>
                                     <span>icon</span>
-                                </Link>
+                                </a>
                             </div>
 
                             <div className='ms-5 ps-5'>
@@ -57,10 +56,10 @@ export default function Commerce() {
                                     from anyone, anywhere, via your<br />
                                     unique payment link.
                                 </p>
-                                <Link>
+                                <a>
                                     <span className='text-warning'>Learn more</span>
                                     <span>icon</span>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>
