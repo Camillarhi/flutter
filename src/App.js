@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/navBar';
 import Banner from './components/banner';
-import Customers from './components/customers';
 import Business from './components/business';
+import Customers from './components/customers';
+import NavBar from './components/navBar';
+import Payments from './components/payments';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Banner />
       <Customers />
       <Business />
+      <Payments />
     </>
   );
 }
