@@ -50,7 +50,7 @@ export default function Footer() {
 
             <div className='d-flex m-4 justify-content-between'>
                 <div className='d-flex justify-content-between me-2'>
-                    <img src='https://flutterwave.com/images/flags/us.svg' className='mb-3 me-2' />
+                    <img alt='flag' src='https://flutterwave.com/images/flags/us.svg' className='mb-3 me-2' />
                     <p>United States <span>down</span></p>
                 </div>
 
