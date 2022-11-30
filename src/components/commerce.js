@@ -51,7 +51,7 @@ export default function Commerce() {
                                     your customers and get paid from <br />
                                     anywhere.
                                 </p>
-                                <a>
+                                <a href='/'>
                                     <span className='text-warning'>Get started</span>
                                     <span>icon</span>
                                 </a>
@@ -63,7 +63,7 @@ export default function Commerce() {
                                     from anyone, anywhere, via your<br />
                                     unique payment link.
                                 </p>
-                                <a>
+                                <a href='/'>
                                     <span className='text-warning'>Learn more</span>
                                     <span>icon</span>
                                 </a>

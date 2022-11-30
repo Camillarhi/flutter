@@ -40,7 +40,7 @@ export default function Payments() {
                         <p className='fs-5'>Easily receive money from anyone, <br />
                             anywhere in the world.
                         </p>
-                        <a>
+                        <a href='/'>
                             <span className='text-warning'>Learn more</span>
                             <span>icon</span>
                         </a>
@@ -52,7 +52,7 @@ export default function Payments() {
                             bank accounts from your <br />
                             Flutterwave dashboard.
                         </p>
-                        <a>
+                        <a href='/'>
                             <span className='text-warning'>Learn more</span>
                             <span>icon</span>
                         </a>

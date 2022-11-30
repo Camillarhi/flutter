@@ -5,6 +5,7 @@ import Commerce from './components/commerce';
 import Customers from './components/customers';
 import NavBar from './components/navBar';
 import Payments from './components/payments';
+import VirtualCards from './components/virtualCards';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Business />
       <Payments />
       <Commerce />
+      <VirtualCards />
     </>
   );
 }
