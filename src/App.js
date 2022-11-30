@@ -4,6 +4,7 @@ import Banner from './components/banner';
 import Business from './components/business';
 import Commerce from './components/commerce';
 import Customers from './components/customers';
+import Footer from './components/footer';
 import GetStarted from './components/getStarted';
 import GlobalReach from './components/globalReach';
 import NavBar from './components/navBar';
@@ -23,6 +24,7 @@ function App() {
       <ApiDoc />
       <GlobalReach />
       <GetStarted />
+      <Footer />
     </>
   );
 }

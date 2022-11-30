@@ -22,7 +22,7 @@ export default function Commerce() {
                 <div className='d-flex justify-content-between flex-column pb-5 mb-5'>
                     <div className='d-flex justify-content-between'>
                         <div className='d-flex align-items-center'>
-                            <div>
+                            <div className='ps-5 mt-5'>
                                 <h3 className='fw-bolder'>Store</h3>
                                 <p className='fs-5'>Create a free ecommerce website and <br />
                                     start selling worldwide with just a few<br />
