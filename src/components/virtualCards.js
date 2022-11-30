@@ -23,6 +23,10 @@ export default function VirtualCards() {
                 <div className='card card-body my-5'>
                 <img className='img-fluid' src='https://cdn.filestackcontent.com/resize=width:900/output=format:webp/bkgNvkPuRLyYGNqXNFGP' alt='stack' />
                 </div>
+
+                <div className='card card-body my-5'>
+                <img className='img-fluid' src='https://cdn.filestackcontent.com/resize=width:900/output=format:webp/bkgNvkPuRLyYGNqXNFGP' alt='stack' />
+                </div>
             </div>
         </div>
     )
