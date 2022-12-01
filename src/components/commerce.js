@@ -25,7 +25,7 @@ export default function Commerce() {
                     <span className='text-success'>Commerce tools.</span>
                 </CommerceText>
 
-                <div className='d-flex justify-content-between flex-column pb-5 mb-5'>
+                <div className='d-flex justify-content-between flex-column py-5 my-5'>
                     <div className='d-flex justify-content-between'>
                         <div className='d-flex align-items-center'>
                             <div className='ps-5 mt-5'>
