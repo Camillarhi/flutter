@@ -5,11 +5,11 @@ import Button from './button';
 import Feature from './feature';
 
 const CommerceText = styled.h1`
-font-size:500%;
+font-size:4rem;
 `;
 
 const StrengthText = styled.p`
-font-size:468.75%;
+font-size:4rem;
 `;
 
 const CommerceDiv = styled.div`
@@ -26,32 +26,34 @@ export default function Commerce() {
                 </CommerceText>
 
                 <div className='d-md-flex justify-content-between flex-column py-5 my-5'>
-                    <div className='d-md-flex justify-content-between'>
-                        <div className='d-flex align-items-center'>
-                            <div className='ps-5 mt-5'>
-                                <h3 className='fw-bolder'>Store</h3>
-                                <p className='fs-5'>Create a free ecommerce website and <br />
-                                    start selling worldwide with just a few<br />
-                                    clicks.
-                                </p>
-                                <Button
-                                    text="Start selling"
-                                    buttonClass="dark px-4 py-3"
-                                />
+                    <div className='d-md-flex justify-content-between mb-5'>
+                        <div>
+                            <div className='d-flex align-items-center mb-5'>
+                                <div className='ps-5 mt-5'>
+                                    <h3 className='fw-bolder'>Store</h3>
+                                    <p className='fs-5'>Create a free ecommerce website and <br />
+                                        start selling worldwide with just a few<br />
+                                        clicks.
+                                    </p>
+                                    <Button
+                                        text="Start selling"
+                                        buttonClass="dark px-4 py-3"
+                                    />
+                                </div>
                             </div>
                         </div>
-                        <div className='w-50'>
-                            <img className='img-fluid' src='https://cdn.filestackcontent.com/resize=width:900/output=format:webp/bkgNvkPuRLyYGNqXNFGP' alt='stack' />
+                        <div className=''>
+                            <img className='img-fluid w-75' src='https://cdn.filestackcontent.com/resize=width:900/output=format:webp/bkgNvkPuRLyYGNqXNFGP' alt='stack' />
                         </div>
                     </div>
-                    <div className='d-flex justify-content-between'>
-                        <div className='w-50'>
+                    <div className='d-md-flex justify-content-between'>
+                        <div className=''>
                             <img className='img-fluid' src='https://cdn.filestackcontent.com/resize=width:700/output=format:webp/lc5K7jXVQiS9jBWmcdKg' alt='stack' />
                             <p className='mt-4'>A platform for you, whether you’re a big business or a
                                 <span className='text-success'> solo artist.</span></p>
                         </div>
                         <div className="d-flex justify-content-around flex-column py-5 w-50">
-                            <div className='ms-5 ps-5'>
+                            <div className='ms-5 ps-5 pb-5'>
                                 <Feature
                                     title="Invoices"
                                     description={<p className='fs-5'>Generate professional invoices for <br />
@@ -63,7 +65,7 @@ export default function Commerce() {
                                 />
                             </div>
 
-                            <div className='ms-5 ps-5'>
+                            <div className='ms-5 ps-5 pb-5'>
                                 <Feature
                                     title="Payment links"
                                     description={<p className='fs-5'>Receive one-off or recurring payments <br />

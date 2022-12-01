@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Button from './button';
 
 const CardTitle = styled.h1`
-font-size:500%;
+font-size:4rem;
 `;
 export default function VirtualCards() {
     return (

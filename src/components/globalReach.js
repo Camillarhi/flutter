@@ -4,7 +4,7 @@ import earth from '../images/earth.webp'
 import SectionWrapper from './SectionWrapper';
 
 const GlobalText = styled.h1`
-font-size:500%;
+font-size:4rem;
 `;
 export default function GlobalReach() {
     return (
@@ -59,8 +59,8 @@ export default function GlobalReach() {
                             </li>
                         </ul>
                     </div>
-                    <div className='w-50'>
-                        <img src={earth} alt='world' className='' width="600px" />
+                    <div className='w-100 d-flex justify-content-end'>
+                        <img src={earth} alt='world' className='' width="80%" />
                     </div>
                 </div>
             </>}

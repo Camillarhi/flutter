@@ -6,7 +6,7 @@ import SectionWrapper from './SectionWrapper';
 import { BsChevronRight } from "react-icons/bs"
 
 const PaymentText = styled.h1`
-font-size:500%;
+font-size:4rem;
 `;
 
 const PaymentSpan = styled.span`

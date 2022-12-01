@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Button from './button';
 
 const DocText = styled.h1`
-font-size:500%;
+font-size:4rem;
 `;
 
 const SpanText = styled.span`

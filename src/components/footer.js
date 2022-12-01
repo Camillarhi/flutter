@@ -50,9 +50,9 @@ export default function Footer() {
             </div>
             <hr />
 
-            <div className='d-flex m-4 justify-content-between align-items-center'>
+            <div className='d-md-flex m-4 justify-content-between align-items-center'>
                 <div className='d-flex justify-content-between me-2'>
-                    <img alt='flag' src='https://flutterwave.com/images/flags/us.svg' className='mb-3 me-2 rounded-circle p-1' />
+                    <img alt='flag' src='https://flutterwave.com/images/flags/us.svg' className='mb-3 me-2 rounded-circle p-1 d-none d-md-inline-block' />
                     <p>United States <span> <BsChevronDown /></span></p>
                 </div>
 
@@ -78,7 +78,7 @@ export default function Footer() {
             </div>
             <hr />
 
-            <div className='d-flex m-4 justify-content-between'>
+            <div className='d-md-flex m-4 justify-content-between'>
                 <div className='d-flex justify-content-between me-2'>
                     <p>© Flutterwave</p>
                 </div>
