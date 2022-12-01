@@ -12,7 +12,7 @@ export default function Banner() {
         <div className='container'>
             <div className='pt-5'>
                 <BannerText className='fw-bolder'>Endless <br />
-                    possibility<span className='text-dark'> for</span>
+                    possibilities<span className='text-dark'> for</span>
                 </BannerText>
                 <BannerText className='fw-bolder text-dark'>every business</BannerText>
             </div>
