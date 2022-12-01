@@ -11,7 +11,7 @@ export default function GetStarted() {
         <SectionWrapper
             element={<>
                 <div className='card card-body bg-black'>
-                    <div className='container m-5 py-4 ps-5 '>
+                    <div className='container m-5 py-4 ps-5 mx-2'>
                         <GetStartedText className='text-light'>
                             Ready to get started?
                         </GetStartedText>
@@ -22,7 +22,7 @@ export default function GetStarted() {
 
                         <a href='/' className=' text-decoration-none'>
                             <span className='text-light'>Contact sales</span>
-                            <span  className='text-light'> <BsChevronRight /></span>
+                            <span className='text-light'> <BsChevronRight /></span>
                         </a>
                     </div>
                 </div>
