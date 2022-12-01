@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Button from './button';
 
 const BannerText = styled.h1`
-font-size:100px;
+font-size:625%;
 color:#fb9129;
 `;
 

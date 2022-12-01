@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Button from './button';
 
 const CardTitle = styled.h1`
-font-size:80px;
+font-size:500%;
 `;
 export default function VirtualCards() {
     return (
@@ -17,15 +17,15 @@ export default function VirtualCards() {
                     launch, and manage your cards easily from anywhere.
                 </p>
                 <Button
-                text="Get started with cards"
-                buttonClass="light px-4 py-3"
+                    text="Get started with cards"
+                    buttonClass="light px-4 py-3"
                 />
                 <div className='card card-body my-5'>
-                <img className='img-fluid' src='https://cdn.filestackcontent.com/resize=width:900/output=format:webp/bkgNvkPuRLyYGNqXNFGP' alt='stack' />
+                    <img className='img-fluid' src='https://cdn.filestackcontent.com/resize=width:900/output=format:webp/bkgNvkPuRLyYGNqXNFGP' alt='stack' />
                 </div>
 
                 <div className='card card-body my-5'>
-                <img className='img-fluid' src='https://cdn.filestackcontent.com/resize=width:900/output=format:webp/bkgNvkPuRLyYGNqXNFGP' alt='stack' />
+                    <img className='img-fluid' src='https://cdn.filestackcontent.com/resize=width:900/output=format:webp/bkgNvkPuRLyYGNqXNFGP' alt='stack' />
                 </div>
             </div>
         </div>

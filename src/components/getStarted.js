@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import SectionWrapper from './SectionWrapper';
 
 const GetStartedText = styled.h1`
-font-size:70px;
+font-size:437.5%;
 `;
 export default function GetStarted() {
     return (

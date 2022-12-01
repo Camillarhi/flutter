@@ -4,7 +4,7 @@ import earth from '../images/earth.webp'
 import SectionWrapper from './SectionWrapper';
 
 const GlobalText = styled.h1`
-font-size:80px;
+font-size:500%;
 `;
 export default function GlobalReach() {
     return (

@@ -5,11 +5,11 @@ import Button from './button';
 import Feature from './feature';
 
 const CommerceText = styled.h1`
-font-size:80px;
+font-size:500%;
 `;
 
 const StrengthText = styled.p`
-font-size:75px;
+font-size:468.75%;
 `;
 
 const CommerceDiv = styled.div`
