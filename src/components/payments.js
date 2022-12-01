@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Button from './button';
 import Feature from './feature';
 import SectionWrapper from './SectionWrapper';
+import { BsChevronRight } from "react-icons/bs"
 
 const PaymentText = styled.h1`
 font-size:80px;
@@ -50,7 +51,7 @@ export default function Payments() {
                                     description={<p className='fs-5'>Easily receive money from anyone, <br />
                                         anywhere in the world.
                                     </p>}
-                                    icon="icon"
+                                    icon={<BsChevronRight />}
                                     link="Learn more"
                                 />
                             </div>
@@ -62,7 +63,7 @@ export default function Payments() {
                                         bank accounts from your <br />
                                         Flutterwave dashboard.
                                     </p>}
-                                    icon="icon"
+                                    icon={<BsChevronRight />}
                                     link="Learn more"
                                 />
                             </div>

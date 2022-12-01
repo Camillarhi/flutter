@@ -1,4 +1,5 @@
 import React from 'react'
+import { BsChevronRight } from 'react-icons/bs';
 import styled from 'styled-components'
 import Button from './button';
 import Feature from './feature';
@@ -57,7 +58,7 @@ export default function Commerce() {
                                         your customers and get paid from <br />
                                         anywhere.
                                     </p>}
-                                    icon="icon"
+                                    icon={<BsChevronRight />}
                                     link="Get started"
                                 />
                             </div>
@@ -69,7 +70,7 @@ export default function Commerce() {
                                         from anyone, anywhere, via your<br />
                                         unique payment link.
                                     </p>}
-                                    icon="icon"
+                                    icon={<BsChevronRight />}
                                     link="Learn more"
                                 />
                             </div>

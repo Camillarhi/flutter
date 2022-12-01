@@ -1,4 +1,5 @@
 import React from 'react'
+import { BsChevronRight } from 'react-icons/bs';
 import styled from 'styled-components';
 import SectionWrapper from './SectionWrapper';
 
@@ -21,7 +22,7 @@ export default function GetStarted() {
 
                         <a href='/' className='ps-5 text-decoration-none'>
                             <span className='text-light'>Contact sales</span>
-                            <span>icon</span>
+                            <span  className='text-light'> <BsChevronRight /></span>
                         </a>
                     </div>
                 </div>
