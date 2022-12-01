@@ -13,7 +13,7 @@ export default function GlobalReach() {
                 <GlobalText className='fw-bolder'>
                     Our <span className='text-primary'> global</span> reach
                 </GlobalText>
-                <div className='d-flex justify-content-between my-5 py-5'>
+                <div className='d-md-flex justify-content-between my-5 py-5'>
                     <div>
                         <ul>
                             <li className='mb-5'>

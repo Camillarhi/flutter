@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Customers() {
     return (
-        <div className='d-flex py-5'>
+        <div className='d-md-flex py-5'>
             <img src="https://cdn.filestackcontent.com/resize=width:1200/output=format:webp/9vezKnDQR6a77H7GUB4k"
                 className=" mb-4 me-5" alt="Foot city" style={{ width: "56%" }} />
             <div>
