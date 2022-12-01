@@ -52,8 +52,8 @@ export default function Commerce() {
                             <p className='mt-4'>A platform for you, whether you’re a big business or a
                                 <span className='text-success'> solo artist.</span></p>
                         </div>
-                        <div className="d-flex justify-content-around flex-column py-5 w-50">
-                            <div className='ms-5 ps-5 pb-5'>
+                        <div className="col-lg-4 mb-4 mb-lg-0 d-flex justify-content-around flex-column py-5">
+                            <div className='ms-5 ps-3 pb-3'>
                                 <Feature
                                     title="Invoices"
                                     description={<p className='fs-5'>Generate professional invoices for <br />
@@ -65,7 +65,7 @@ export default function Commerce() {
                                 />
                             </div>
 
-                            <div className='ms-5 ps-5 pb-5'>
+                            <div className='ms-5 ps-3 pb-5'>
                                 <Feature
                                     title="Payment links"
                                     description={<p className='fs-5'>Receive one-off or recurring payments <br />
