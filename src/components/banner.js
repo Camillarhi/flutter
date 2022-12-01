@@ -4,16 +4,17 @@ import Button from './button';
 
 const BannerText = styled.h1`
 font-size:100px;
+color:#fb9129;
 `;
 
 export default function Banner() {
     return (
         <div className='container'>
             <div className='pt-5'>
-                <BannerText className='text-warning fw-bolder'>Endless <br />
+                <BannerText className='fw-bolder'>Endless <br />
                     possibilities<span className='text-dark'> for</span>
                 </BannerText>
-                <BannerText className='fw-bolder'>every business</BannerText>
+                <BannerText className='fw-bolder text-dark'>every business</BannerText>
             </div>
             <div className='mt-4'>
                 <p className='fs-5'>Sell online, process payments, build financial products, or use <br />

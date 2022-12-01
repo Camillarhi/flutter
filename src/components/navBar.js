@@ -25,7 +25,7 @@ export default function NavBar() {
                     <button className="navbar-toggler" type="button" onClick={() => openNav()}>
                         <span className="navbar-toggler-icon" />
                     </button>
-                    <div className="" id="navbarToggler">
+                    <div className="collapse show" id="navbarToggler">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <a href='/' className="nav-link active mx-2" aria-current="page" >Payments</a>
@@ -46,8 +46,13 @@ export default function NavBar() {
                                 <a href='/' className="nav-link active mx-2" aria-current="page" >FaaS</a>
                             </li>
                         </ul>
+                        <div className="d-md-none">
+                            <Button
+                                text="Sign in"
+                                buttonClass="secondary px-5 py-2" />
+                        </div>
                     </div>
-                    <div className="d-flex">
+                    <div className="d-none d-md-block">
                         <Button
                             text="Sign in"
                             buttonClass="secondary px-5 py-2" />

@@ -5,14 +5,23 @@ import Button from './button';
 const DocText = styled.h1`
 font-size:80px;
 `;
+
+const SpanText = styled.span`
+color:#eb7da7;
+`;
+
+const ApiDiv = styled.div`
+background-color: #f8fafd;
+`;
+
 export default function ApiDoc() {
     return (
-        <div className='py-5 bg-secondary'>
+        <ApiDiv className='py-5'>
             <div className='container'>
                 <DocText className='fw-bolder my-5 pt-5'>
                     Well documented and<br />
-                    easy-to-use <span className='text-danger'> APIs</span> for<br />
-                    <span className='text-danger'> developers</span>
+                    easy-to-use <SpanText> APIs</SpanText> for<br />
+                    <SpanText> developers</SpanText>
                 </DocText>
 
                 <p className='fs-5 pb-3'>
@@ -22,19 +31,19 @@ export default function ApiDoc() {
                 </p>
 
                 <ul className="pb-5">
-                    <li>
+                    <li className='mb-3'>
                         Quick transfers
                     </li>
-                    <li>
+                    <li className='mb-3'>
                         Initiate one-time and recurring payments
                     </li>
-                    <li>
+                    <li className='mb-3'>
                         Payment verification
                     </li>
-                    <li>
+                    <li className='mb-3'>
                         Instant virtual cards creation
                     </li>
-                    <li>
+                    <li className='mb-3'>
                         Customer verification
                     </li>
                 </ul>
@@ -46,6 +55,6 @@ export default function ApiDoc() {
                     />
                 </div>
             </div>
-        </div>
+        </ApiDiv>
     )
 }

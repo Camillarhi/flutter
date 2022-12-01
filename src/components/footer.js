@@ -28,7 +28,8 @@ export default function Footer() {
                     <h5 className='my-3'>Developers</h5>
                     <p>API Documentation</p>
                     <p>API Reference</p>
-                    <p>API Status <span className='bg-success'> badge</span></p>
+                    <p>API Status <span class="ms-1 p-1 bg-success rounded-circle d-inline-block">
+                    </span></p>
                 </div>
                 <div className='my-5'>
                     <h5 className='my-3'>Flutterwave</h5>
@@ -84,19 +85,19 @@ export default function Footer() {
                 <div>
                     <ul className='d-flex list-unstyled justify-content-between'>
                         <li className='pe-2'>
-                        Privacy policy
+                            Privacy policy
                         </li>
                         <li className='px-2'>
-                        Terms of use
+                            Terms of use
                         </li>
                         <li className='px-2'>
-                        Cookie policy
+                            Cookie policy
                         </li>
                         <li className='px-2'>
-                        Merchant service agreement
+                            Merchant service agreement
                         </li>
                         <li className='ps-2'>
-                        Payment protection promise
+                            Payment protection promise
                         </li>
                     </ul>
                 </div>

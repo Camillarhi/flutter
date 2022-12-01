@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Button from './button';
+import Feature from './feature';
 
 const CommerceText = styled.h1`
 font-size:80px;
@@ -10,9 +11,13 @@ const StrengthText = styled.p`
 font-size:75px;
 `;
 
+const CommerceDiv = styled.div`
+background-color: #f8fafd;
+`;
+
 export default function Commerce() {
     return (
-        <div className='bg-secondary pb-5'>
+        <CommerceDiv className='pb-5'>
             <div className='container py-5'>
                 <CommerceText className='pt-5 fw-bolder'>
                     Build a successful online business with our <br />
@@ -46,27 +51,27 @@ export default function Commerce() {
                         </div>
                         <div className="d-flex justify-content-around flex-column py-5 w-50">
                             <div className='ms-5 ps-5'>
-                                <h3 className='fw-bolder'>Invoices</h3>
-                                <p className='fs-5'>Generate professional invoices for <br />
-                                    your customers and get paid from <br />
-                                    anywhere.
-                                </p>
-                                <a href='/'>
-                                    <span className='text-warning'>Get started</span>
-                                    <span>icon</span>
-                                </a>
+                                <Feature
+                                    title="Invoices"
+                                    description={<p className='fs-5'>Generate professional invoices for <br />
+                                        your customers and get paid from <br />
+                                        anywhere.
+                                    </p>}
+                                    icon="icon"
+                                    link="Get started"
+                                />
                             </div>
 
                             <div className='ms-5 ps-5'>
-                                <h3 className='fw-bolder'>Payment links</h3>
-                                <p className='fs-5'>Receive one-off or recurring payments <br />
-                                    from anyone, anywhere, via your<br />
-                                    unique payment link.
-                                </p>
-                                <a href='/'>
-                                    <span className='text-warning'>Learn more</span>
-                                    <span>icon</span>
-                                </a>
+                                <Feature
+                                    title="Payment links"
+                                    description={<p className='fs-5'>Receive one-off or recurring payments <br />
+                                        from anyone, anywhere, via your<br />
+                                        unique payment link.
+                                    </p>}
+                                    icon="icon"
+                                    link="Learn more"
+                                />
                             </div>
                         </div>
                     </div>
@@ -80,13 +85,12 @@ export default function Commerce() {
                         we focus on providing all the<br />
                         <span className='text-success'> commerce tools</span> you need.
                     </StrengthText>
-                    <Button 
-                    text="Okay, let’s go"
-                    buttonClass="dark px-4 py-3"
+                    <Button
+                        text="Okay, let’s go"
+                        buttonClass="dark px-4 py-3"
                     />
                 </div>
             </div>
-
-        </div>
+        </CommerceDiv>
     )
 }
