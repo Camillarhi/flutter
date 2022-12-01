@@ -12,17 +12,17 @@ export default function GetStarted() {
             element={<>
                 <div className='card card-body bg-black'>
                     <div className='container m-5 py-4 ps-5 '>
-                        <GetStartedText className='text-light'>
+                        <GetStartedText className='text-light text-wrap' style={{ width: '17rem' }}>
                             Ready to get started?
                         </GetStartedText>
-                        <p className='fs-5 text-light pb-5'>
+                        <p className='fs-5 text-light pb-5 text-wrap' style={{ width: '17rem' }}>
                             Create an account and instantly start accepting payments, selling your<br />
                             beautiful products online and building financial tools.
                         </p>
 
                         <a href='/' className=' text-decoration-none'>
                             <span className='text-light'>Contact sales</span>
-                            <span  className='text-light'> <BsChevronRight /></span>
+                            <span className='text-light'> <BsChevronRight /></span>
                         </a>
                     </div>
                 </div>
